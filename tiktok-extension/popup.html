@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: system-ui, sans-serif; width: 300px; padding: 15px; margin: 0; background: #fafafa; }
+    h2 { font-size: 16px; margin-top: 0; color: #111; }
+    input { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    button { width: 100%; padding: 10px; background: #fe2c55; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    button:hover { background: #e3264c; }
+    #stopBtn { background: #333; margin-top: 10px; display: none; }
+    .status { margin-top: 15px; font-size: 13px; color: #555; }
+    .stats { margin-top: 10px; padding: 10px; background: white; border-radius: 4px; border: 1px solid #eee; }
+    .stat-row { display: flex; justify-content: space-between; margin-bottom: 5px; }
+    .bold { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Live Lead Extractor</h2>
+  <input type="text" id="username" placeholder="TikTok Username (e.g. aakash_giri0)">
+  <button id="startBtn">Start Extraction</button>
+  <button id="stopBtn">Stop</button>
+
+  <div class="status" id="statusText">Status: Idle</div>
+  
+  <div class="stats">
+    <div class="stat-row"><span>Numbers Found:</span> <span class="bold" id="phoneCount">0</span></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

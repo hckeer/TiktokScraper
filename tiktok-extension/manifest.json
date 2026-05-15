@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok Live Lead Extractor",
+  "version": "1.0",
+  "description": "Background extraction of phone numbers from TikTok Live comments",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.tiktok.com/*",
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open Extractor"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.tiktok.com/*/live*"],
+      "js": ["content.js"]
+    }
+  ]
+}
