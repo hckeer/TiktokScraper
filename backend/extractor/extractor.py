@@ -43,7 +43,7 @@ except ImportError:
 
 # Async compatibility
 import nest_asyncio
-nest_asyncio.apply()
+# nest_asyncio.apply() # Removed to prevent corrupting event loop
 
 # ==========================================
 # 📝 LOGGING SETUP

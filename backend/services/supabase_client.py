@@ -9,7 +9,12 @@ def mock_match(pattern, string, flags=0):
     if "A-Za-z0-9-_=" in pattern:
         return True
     return original_match(pattern, string, flags)
-supabase._sync.client.re.match = mock_match
+
+import types
+mock_re = types.ModuleType("mock_re")
+mock_re.__dict__.update(re.__dict__)
+mock_re.match = mock_match
+supabase._sync.client.re = mock_re
 
 def get_supabase() -> Client:
     url = settings.supabase_url if settings.supabase_url else "http://localhost:8000"

@@ -1221,3 +1221,428 @@ task: <Task pending name='Task-113' coro=<Queue.get() running at /usr/local/lib/
 11:03:05 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-JM&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=11&is_fullscreen=false&is_page_visible=true&screen_height=2048&screen_width=1152&tz_name=America/Jamaica&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=JM&region=JM&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@"santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"/live&root_referer=https://www.tiktok.com/@"santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"/live&device_id=13082162044004975452&uniqueId="santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"&sourceType=54 "HTTP/1.1 200 OK"
 11:03:11 │ INFO │ HTTP Request: GET https://www.tiktok.com/@"santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"/live? "HTTP/1.1 302 Moved Temporarily"
 11:03:12 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-JM&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=11&is_fullscreen=false&is_page_visible=true&screen_height=2048&screen_width=1152&tz_name=America/Jamaica&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=JM&region=JM&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@"santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"/live&root_referer=https://www.tiktok.com/@"santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"/live&device_id=75246379808435930162&uniqueId="santu.rasaili53",%20"gulf.recruiter",%20"santu.rasaili3",%20"best.requirement.a",%20%20%20%20%20%20%20%20%20"jopvacancy3",%20"baidesikkoneelkamal337",%20"alsecuremanpower1",%20"jobstation.ae",%20%20%20%20%20%20%20%20%20"theriveroverseas.p.v.t",%20"manpower.demand.pu",%20"leadingmanpower",%20%20%20%20%20%20%20%20%20"menpowerdimantneapalaa12",%20"sanjeevbaideshikrojgar0",%20"jobaboard.com.ktm",%20%20%20%20%20%20%20%20%20"adhikari.overseas",%20"monikaraii6",%20"manpowerdemand6",%20"support.manpower",%20%20%20%20%20%20%20%20%20"gulf.demand_ishwor",%20"vacancyforgulfcountry",%20"work.overseas5",%20"baidesik5",%20%20%20%20%20%20%20%20%20"karina.leadingmanpower",%20"mangalgurung518",%20"bikashtamang6",%20"pardesi.dinesh1",%20%20%20%20%20%20%20%20%20"baidesikrojgar60",%20"anisha8878",%20"manpowershrdemand1",%20"goldenachieversitahari",%20%20%20%20%20%20%20%20%20"baideshikrojgar065"&sourceType=54 "HTTP/1.1 200 OK"
+12:35:19 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+12:35:20 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 400 Bad Request"
+12:39:16 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+12:39:16 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+12:39:16 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.4f45ea4c-c6e2-4ffa-a157-f71e82fe5fb2 "HTTP/2 200 OK"
+12:39:16 │ INFO │ [SESSION] Connecting to deniskhadka09 (session: 4f45ea4c-c6e2-4ffa-a157-f71e82fe5fb2)
+12:39:16 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.4f45ea4c-c6e2-4ffa-a157-f71e82fe5fb2 "HTTP/2 200 OK"
+12:39:16 │ INFO │ [SESSION] Live: deniskhadka09
+12:39:17 │ INFO │ HTTP Request: GET https://www.tiktok.com/@deniskhadka09/live? "HTTP/1.1 200 OK"
+12:39:18 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-JM&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20OPR%2F113.0.0.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=5&is_fullscreen=false&is_page_visible=true&screen_height=2560&screen_width=1440&tz_name=America/Jamaica&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=JM&region=JM&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@deniskhadka09/live&root_referer=https://www.tiktok.com/@deniskhadka09/live&device_id=52800807399850137871&room_id=7641200305023683349&room_ids=7641200305023683349 "HTTP/1.1 200 OK"
+12:39:20 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641200305023683349&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36%20OPR%2F113.0.0.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd928e0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd92840>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd920c0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd91ee0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd91bc0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:21 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd91800>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd207c0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20220>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20040>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea7f60>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea7ec0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea7e20>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:26 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea6de0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:27 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea5800>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:36 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea7d80>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:43 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea5800>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:47 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea4cc0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:39:54 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdea4b80>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'

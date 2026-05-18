@@ -21,9 +21,10 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
             "curl_cffi_kwargs": {"impersonate": "chrome110"}
         }
     )
+    from collections import OrderedDict
     queue = asyncio.Queue()
     comment_received_count = 0
-    seen_messages = set()  # Prevent duplicates on reconnect
+    seen_messages = OrderedDict()  # Prevent duplicates on reconnect
 
     @client.on(CommentEvent)
     async def on_comment(event: CommentEvent):
@@ -33,9 +34,9 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
         msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
         if msg_id in seen_messages:
             return
-        seen_messages.add(msg_id)
+        seen_messages[msg_id] = True
         if len(seen_messages) > 1000:
-            seen_messages.pop() # Keep memory bounded
+            seen_messages.popitem(last=False) # Keep memory bounded
             
         comment_received_count += 1
         print(f"[EXTRACTOR] Comment #{comment_received_count} from {event.user.unique_id}: {event.comment[:50]}")

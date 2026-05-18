@@ -1,7 +1,7 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from services.supabase_client import supabase
 from services.redis_client import redis_client
-from services.temporal_client import get_temporal_client
+from services.extraction_manager import manager
 import asyncio
 import json
 
@@ -12,19 +12,8 @@ async def websocket_endpoint(websocket: WebSocket, session_id: str):
     await websocket.accept()
     print(f"[WS] Client connected for session: {session_id}")
     
-    # Check if session exists
-    try:
-        res = supabase.table("sessions").select("temporal_workflow_id", "status").eq("id", session_id).execute()
-        if res.data:
-            workflow_id = res.data[0]["temporal_workflow_id"]
-        else:
-            workflow_id = f"session:{session_id}"
-    except Exception:
-        workflow_id = f"session:{session_id}"
-    
     channel_name = f"session:{session_id}:events"
     
-    # Create a new async Redis client for this connection
     redis_sub = redis_client.pubsub()
     await redis_sub.subscribe(channel_name)
     print(f"[WS] Subscribed to channel: {channel_name}")
@@ -54,12 +43,10 @@ async def websocket_endpoint(websocket: WebSocket, session_id: str):
             data = await websocket.receive_text()
             message = json.loads(data)
             if message.get("type") == "stop":
-                client = await get_temporal_client()
                 try:
-                    handle = client.get_workflow_handle(workflow_id)
-                    await handle.signal("stop")
+                    await manager.stop_session(session_id)
                 except Exception as e:
-                    print(f"Error sending stop signal: {e}")
+                    print(f"Error stopping session: {e}")
             elif message.get("type") == "ping":
                 await websocket.send_text(json.dumps({"type": "pong"}))
     except WebSocketDisconnect:
