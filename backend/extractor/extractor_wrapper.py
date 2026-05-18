@@ -12,9 +12,27 @@ class Comment(BaseModel):
     text: str
     timestamp: datetime
 
+def _safe_get_username(event) -> str:
+    try:
+        user_info = getattr(event, 'user_info', None)
+        if user_info is not None:
+            pydict = user_info.to_pydict() if hasattr(user_info, 'to_pydict') else {}
+            for key in ('unique_id', 'uniqueId', 'display_id', 'displayId', 'nickname', 'nickName'):
+                if key in pydict and pydict[key]:
+                    return pydict[key]
+            return str(user_info)
+    except Exception:
+        pass
+    try:
+        user = getattr(event, 'user', None)
+        if user is not None:
+            return getattr(user, 'unique_id', None) or getattr(user, 'uniqueId', None) or str(user)
+    except Exception:
+        pass
+    return "unknown_user"
+
 async def start_session(username: str) -> AsyncGenerator[Comment, None]:
     print(f"[EXTRACTOR] Connecting to {username}...")
-    # Use curl_cffi to bypass TikTok TLS blocking
     client = TikTokLiveClient(
         unique_id=username,
         web_kwargs={
@@ -24,25 +42,24 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
     from collections import OrderedDict
     queue = asyncio.Queue()
     comment_received_count = 0
-    seen_messages = OrderedDict()  # Prevent duplicates on reconnect
+    seen_messages = OrderedDict()
 
     @client.on(CommentEvent)
     async def on_comment(event: CommentEvent):
         nonlocal comment_received_count
         
-        # Avoid duplicates on reconnect
-        msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+        author = _safe_get_username(event)
+        msg_id = getattr(event, "msg_id", None) or f"{author}_{event.comment}"
         if msg_id in seen_messages:
             return
         seen_messages[msg_id] = True
         if len(seen_messages) > 1000:
-            seen_messages.popitem(last=False) # Keep memory bounded
+            seen_messages.popitem(last=False)
             
         comment_received_count += 1
-        print(f"[EXTRACTOR] Comment #{comment_received_count} from {event.user.unique_id}: {event.comment[:50]}")
-        # We put the comment in the queue
+        print(f"[EXTRACTOR] Comment #{comment_received_count} from {author}: {event.comment[:50]}")
         comment = Comment(
-            author=event.user.unique_id,
+            author=author,
             text=event.comment,
             timestamp=datetime.now()
         )
@@ -52,7 +69,6 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
     async def on_disconnect(event: DisconnectEvent):
         print(f"[EXTRACTOR] Disconnected from {username}")
 
-    # We start the client in a background task
     async def safe_start():
         while True:
             try:
@@ -61,18 +77,15 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
                 if isinstance(client_task, asyncio.Task):
                     await client_task
                 print(f"[EXTRACTOR] client task completed for {username}")
-                # If it completes cleanly, wait a bit and reconnect
                 await asyncio.sleep(5)
             except Exception as e:
                 print(f"[EXTRACTOR] client.start() error for {username}: {type(e).__name__}: {e}")
-                # Wait before auto-reconnecting
                 await asyncio.sleep(5)
     
     task = asyncio.create_task(safe_start())
     
     try:
         while True:
-            # Yield comments as they arrive, but also check if task failed
             get_task = asyncio.create_task(queue.get())
             done, pending = await asyncio.wait(
                 [get_task, task],
@@ -80,7 +93,6 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
             )
             
             if task in done:
-                # Client stopped or crashed permanently (shouldn't happen due to while True loop above)
                 exc = task.exception()
                 if exc:
                     print(f"[EXTRACTOR] TikTok client fatal error: {exc}")
@@ -93,7 +105,6 @@ async def start_session(username: str) -> AsyncGenerator[Comment, None]:
                 yield comment
                 
     except asyncio.CancelledError:
-        # Client stop should be invoked on cancel
         print(f"[EXTRACTOR] CancelledError for {username}, disconnecting...")
         try:
             await client.disconnect()

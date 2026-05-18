@@ -32,6 +32,8 @@ def get_supabase() -> Client:
                     def insert(self, *args, **kwargs): return self
                     def update(self, *args, **kwargs): return self
                     def eq(self, *args, **kwargs): return self
+                    def lt(self, *args, **kwargs): return self
+                    def gte(self, *args, **kwargs): return self
                     def execute(self, *args, **kwargs): 
                         from collections import namedtuple
                         Res = namedtuple('Res', ['data'])

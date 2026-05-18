@@ -1646,3 +1646,580 @@ Traceback (most recent call last):
     return ExtendedUser(**user.to_pydict(**kwargs))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:40:22 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd22de0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:40:40 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd207c0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:40:45 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20180>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:08 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20220>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:20 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20ae0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:24 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20e00>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:37 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20040>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:37 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd22de0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:37 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd207c0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:50 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20ae0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:55 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd209a0>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:41:57 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd21260>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:42:05 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd20e00>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:42:34 │ ERROR │ Exception in callback <function AsyncIOEventEmitter._emit_run.<locals>.callback at 0x7f17fdd21260>
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.11/site-packages/pyee/asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 211, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "/usr/local/lib/python3.11/site-packages/pyee/base.py", line 169, in _emit_handle_potential_error
+    raise error
+  File "/app/extractor/extractor_wrapper.py", line 34, in on_comment
+    msg_id = getattr(event, "msg_id", None) or f"{event.user.unique_id}_{event.comment}"
+                                                  ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/betterproto/__init__.py", line 846, in __getattribute__
+    value = super().__getattribute__(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/events/proto_events.py", line 1222, in user
+    return ExtendedUser.from_user(self.user_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/TikTokLive/proto/custom_proto.py", line 59, in from_user
+    return ExtendedUser(**user.to_pydict(**kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: User.__init__() got an unexpected keyword argument 'nickName'
+12:48:48 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+12:48:48 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+12:48:48 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.fed25a32-1dab-4ad0-ab55-da1bb3458263 "HTTP/2 200 OK"
+12:48:48 │ INFO │ [SESSION] Connecting to deniskhadka09 (session: fed25a32-1dab-4ad0-ab55-da1bb3458263)
+12:48:48 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.fed25a32-1dab-4ad0-ab55-da1bb3458263 "HTTP/2 200 OK"
+12:48:48 │ INFO │ [SESSION] Live: deniskhadka09
+12:48:49 │ INFO │ HTTP Request: GET https://www.tiktok.com/@deniskhadka09/live? "HTTP/1.1 200 OK"
+12:48:49 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=2048&screen_width=1152&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@deniskhadka09/live&root_referer=https://www.tiktok.com/@deniskhadka09/live&device_id=58691944652783321777&room_id=7641200305023683349&room_ids=7641200305023683349 "HTTP/1.1 200 OK"
+12:48:54 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641200305023683349&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+12:48:55 │ INFO │ [COMMENT] #1 unknown_user: tesaile body shot on gara vaneko
+12:48:55 │ INFO │ [COMMENT] #2 unknown_user: dai mani khelni
+12:48:55 │ INFO │ [COMMENT] #3 unknown_user: body ma sab la vunxan ..body chaii na garaou
+12:48:55 │ INFO │ [COMMENT] #4 unknown_user: heram hai ta Ava
+12:48:55 │ INFO │ [COMMENT] #5 unknown_user: like target katii rakhxhaou vana ta mo tap tap gar
+12:48:55 │ INFO │ [COMMENT] #6 unknown_user: budget vaneko tyi 2gb ko 2nd Gen wala hani aukat x
+12:49:01 │ INFO │ [COMMENT] #7 unknown_user: aanii
+12:49:05 │ INFO │ [COMMENT] #8 unknown_user: xi kasto ramro haneko
+12:49:14 │ INFO │ [COMMENT] #9 unknown_user: tying ni 2nd hand ho 8k hoki 10k ma kineko ho last
+12:59:56 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+12:59:56 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+12:59:57 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.a83b9f83-d32c-41c2-bef4-760226bb3755 "HTTP/2 200 OK"
+12:59:57 │ INFO │ [REDIS] Published session_status to session:a83b9f83-d32c-41c2-bef4-760226bb3755:events (receivers: 0)
+12:59:57 │ INFO │ [SESSION] Connecting to aakash_giri0 (session: a83b9f83-d32c-41c2-bef4-760226bb3755)
+12:59:57 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.a83b9f83-d32c-41c2-bef4-760226bb3755 "HTTP/2 200 OK"
+12:59:57 │ INFO │ [REDIS] Published session_status to session:a83b9f83-d32c-41c2-bef4-760226bb3755:events (receivers: 0)
+12:59:57 │ INFO │ [SESSION] Live: aakash_giri0
+12:59:58 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:04 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:10 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:10 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=86855116207653037909&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:11 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=50910080679829339951&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:16 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:17 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=53033309529348547376&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:19 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=19039214094088010086&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:24 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:24 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=69696140401314370989&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:25 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=75668688940239847982&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:30 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:31 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=19802166263755007822&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:31 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=86834057492449375900&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:36 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:37 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=19499214917117360157&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:37 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=48654873994692293814&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:39 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+13:00:40 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+13:00:40 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.c396978a-5eca-43ab-9079-ff9a73eb6fc8 "HTTP/2 200 OK"
+13:00:40 │ INFO │ [REDIS] Published session_status to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 0)
+13:00:40 │ INFO │ [SESSION] Connecting to deniskhadka09 (session: c396978a-5eca-43ab-9079-ff9a73eb6fc8)
+13:00:41 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.c396978a-5eca-43ab-9079-ff9a73eb6fc8 "HTTP/2 200 OK"
+13:00:41 │ INFO │ [REDIS] Published session_status to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:41 │ INFO │ [SESSION] Live: deniskhadka09
+13:00:41 │ INFO │ HTTP Request: GET https://www.tiktok.com/@deniskhadka09/live? "HTTP/1.1 200 OK"
+13:00:42 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@deniskhadka09/live&root_referer=https://www.tiktok.com/@deniskhadka09/live&device_id=45985324015918469788&uniqueId=deniskhadka09&sourceType=54 "HTTP/1.1 200 OK"
+13:00:42 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@deniskhadka09/live&root_referer=https://www.tiktok.com/@deniskhadka09/live&device_id=26620268866439444064&room_id=7641200305023683349&room_ids=7641200305023683349 "HTTP/1.1 200 OK"
+13:00:42 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:43 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=42908829046362551724&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:43 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=20211423360615465687&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:45 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641200305023683349&user_agent=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+13:00:46 │ INFO │ [COMMENT] #1 RAKESH HORW: lol..🤣🤣
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [COMMENT] #2 Fjjj Gjjj: pas
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [COMMENT] #3 Deniss: 88127608
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [COMMENT] #4 Akash Magar: garako
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [COMMENT] #5 Fjjj Gjjj: done
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [COMMENT] #6 BIPENX FF: giveaway hoooooo
+13:00:46 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:46 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:48 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:51 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=90437020920725668907&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:51 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=40056439664346951201&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:00:56 │ INFO │ [COMMENT] #7 Fjjj Gjjj: pass
+13:00:56 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:56 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:00:57 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:00:57 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=41739593697949030428&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:00:57 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=59784069555323234434&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:03 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:03 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=27620631736995290481&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:04 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=78153190992160014564&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:10 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:10 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=88058431828510491883&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:10 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=96625604279680116555&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:16 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:16 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=59948872010416078323&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:16 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=35008038135692238178&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:19 │ INFO │ [COMMENT] #8 Fjjj Gjjj: st
+13:01:19 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:19 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:22 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:22 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=72657963892563236674&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:22 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=42407231166018733798&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:28 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:28 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=42888529012593606542&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:28 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=20417794973408677819&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:34 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:34 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=95994691622152191435&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:34 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=12725669794376462263&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:35 │ INFO │ [COMMENT] #9 Akash Magar: ma matra garxu li
+13:01:35 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:35 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:39 │ INFO │ [COMMENT] #10 Akash Magar: lo
+13:01:39 │ INFO │ [REDIS] Published comment to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:39 │ INFO │ [REDIS] Published stats to session:c396978a-5eca-43ab-9079-ff9a73eb6fc8:events (receivers: 1)
+13:01:40 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:40 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=96010069907816612229&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:41 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=66304492581616258819&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:46 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:46 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=97213584955828214391&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:46 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=24272267158483590253&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:52 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:52 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=79582711990079157769&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:52 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=66773651116394887079&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:01:58 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:01:58 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=57235841387153223457&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:01:58 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=10119601865693460945&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:02:04 │ INFO │ HTTP Request: GET https://www.tiktok.com/@aakash_giri0/live? "HTTP/1.1 200 OK"
+13:02:04 │ INFO │ HTTP Request: GET https://www.tiktok.com/api-live/user/room/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=49635299847332045685&room_id=7640866868722420488&uniqueId=aakash_giri0&sourceType=54 "HTTP/1.1 200 OK"
+13:02:04 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=MacIntel&browser_version=5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2014.7%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=1080&screen_width=1920&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=mac&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@aakash_giri0/live&root_referer=https://www.tiktok.com/@aakash_giri0/live&device_id=85849983815484650084&room_id=7640866868722420488&room_ids=7640866868722420488 "HTTP/1.1 200 OK"
+13:03:15 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.connecting "HTTP/2 200 OK"
+13:03:15 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+13:03:15 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.92f6bb37-c7e4-43f6-bbb9-20e7bd587218 "HTTP/2 200 OK"
+13:03:15 │ INFO │ [REDIS] Published session_status to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:15 │ INFO │ [SESSION] Connecting to deniskhadka09 (session: 92f6bb37-c7e4-43f6-bbb9-20e7bd587218)
+13:03:16 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.92f6bb37-c7e4-43f6-bbb9-20e7bd587218 "HTTP/2 200 OK"
+13:03:16 │ INFO │ [REDIS] Published session_status to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:16 │ INFO │ [SESSION] Live: deniskhadka09
+13:03:16 │ INFO │ HTTP Request: GET https://www.tiktok.com/@deniskhadka09/live? "HTTP/1.1 200 OK"
+13:03:17 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-GB&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=4&is_fullscreen=false&is_page_visible=true&screen_height=2880&screen_width=5120&tz_name=Europe/London&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=GB&region=GB&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@deniskhadka09/live&root_referer=https://www.tiktok.com/@deniskhadka09/live&device_id=93643756928475110094&room_id=7641200305023683349&room_ids=7641200305023683349 "HTTP/1.1 200 OK"
+13:03:19 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641200305023683349&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&platform=web&client_enter=true "HTTP/1.1 200 OK"
+13:03:20 │ INFO │ [COMMENT] #1 Fjjj Gjjj: st
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [COMMENT] #2 Akash Magar: ma matra garxu li
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [COMMENT] #3 Akash Magar: lo
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [COMMENT] #4 ❤️‍🩹SAGAR🖤SAHANI👑: win Garda Kay pain cha
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [COMMENT] #5 a15: 🌷×56
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [COMMENT] #6 a15: 🌷x57
+13:03:20 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:03:20 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 0)
+13:04:37 │ INFO │ [COMMENT] #7 🎀: haina hola
+13:04:37 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:04:37 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:05:13 │ INFO │ [COMMENT] #8 targerianAegonjon: great
+13:05:13 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:05:13 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:05:40 │ INFO │ [COMMENT] #9 targerianAegonjon: 9745617892
+13:05:40 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:05:40 │ INFO │ [PHONE] Found: ['9745617892']
+13:05:40 │ INFO │ [REDIS] Published phone_found to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:05:42 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/extracted_numbers?columns=%22source_comment%22%2C%22phone_number%22%2C%22session_id%22 "HTTP/2 201 Created"
+13:05:42 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:06:30 │ INFO │ [COMMENT] #10 Rahul Bhai: [wow]
+13:06:30 │ INFO │ [REDIS] Published comment to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:06:30 │ INFO │ [REDIS] Published stats to session:92f6bb37-c7e4-43f6-bbb9-20e7bd587218:events (receivers: 1)
+13:06:36 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=%2A&id=eq.92f6bb37-c7e4-43f6-bbb9-20e7bd587218 "HTTP/2 200 OK"
+13:06:36 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/extracted_numbers?select=%2A&session_id=eq.92f6bb37-c7e4-43f6-bbb9-20e7bd587218 "HTTP/2 200 OK"
+15:03:58 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.live "HTTP/2 200 OK"
+15:04:07 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.live "HTTP/2 200 OK"
+17:23:39 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?status=eq.live&created_at=lt.2026-05-18T13%3A23%3A38.090075%2B00%3A00 "HTTP/2 200 OK"
+17:23:40 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&status=eq.live&created_at=gte.2026-05-18T13%3A23%3A38.090075%2B00%3A00 "HTTP/2 200 OK"
+17:23:40 │ INFO │ HTTP Request: GET https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?select=id&client_ip=eq.172.19.0.1&status=eq.live&created_at=gte.2026-05-18T13%3A23%3A38.090075%2B00%3A00 "HTTP/2 200 OK"
+17:23:40 │ INFO │ HTTP Request: POST https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions "HTTP/2 201 Created"
+17:23:40 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.054d458f-865a-4853-8a01-fe17dc917cd8 "HTTP/2 200 OK"
+17:23:40 │ INFO │ [SESSION] Connecting to ranish4201 (session: 054d458f-865a-4853-8a01-fe17dc917cd8)
+17:23:40 │ INFO │ HTTP Request: PATCH https://mtusxullmgsjxhpsnhwy.supabase.co/rest/v1/sessions?id=eq.054d458f-865a-4853-8a01-fe17dc917cd8 "HTTP/2 200 OK"
+17:23:40 │ INFO │ [SESSION] Live: ranish4201
+17:23:41 │ INFO │ HTTP Request: GET https://www.tiktok.com/@ranish4201/live? "HTTP/1.1 200 OK"
+17:23:41 │ INFO │ [WS] Registered for session 054d458f-865a-4853-8a01-fe17dc917cd8 (total clients: 1)
+17:23:41 │ INFO │ [WS] Unregistered for session 054d458f-865a-4853-8a01-fe17dc917cd8 (total clients: 0)
+17:23:41 │ INFO │ [WS] Registered for session 054d458f-865a-4853-8a01-fe17dc917cd8 (total clients: 1)
+17:23:42 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=4320&screen_width=7680&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@ranish4201/live&root_referer=https://www.tiktok.com/@ranish4201/live&device_id=99531278168714333729&room_id=7641264543013128968&room_ids=7641264543013128968 "HTTP/1.1 200 OK"
+17:23:44 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641264543013128968&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+17:23:51 │ INFO │ HTTP Request: GET https://www.tiktok.com/@ranish4201/live? "HTTP/1.1 200 OK"
+17:23:51 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=4320&screen_width=7680&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@ranish4201/live&root_referer=https://www.tiktok.com/@ranish4201/live&device_id=49920775528358481721&room_id=7641264543013128968&room_ids=7641264543013128968 "HTTP/1.1 200 OK"
+17:23:53 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641264543013128968&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+17:23:59 │ INFO │ HTTP Request: GET https://www.tiktok.com/@ranish4201/live? "HTTP/1.1 200 OK"
+17:24:00 │ INFO │ HTTP Request: GET https://webcast.tiktok.com/webcast/room/check_alive/?aid=1988&app_language=en&app_name=tiktok_web&browser_language=en-CA&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&cookie_enabled=true&device_platform=web_pc&focus_state=true&from_page=&history_len=14&is_fullscreen=false&is_page_visible=true&screen_height=4320&screen_width=7680&tz_name=America/Toronto&channel=tiktok_web&data_collection_enabled=true&os=windows&priority_region=CA&region=CA&user_is_login=false&webcast_language=en&msToken=&referer=https://www.tiktok.com/@ranish4201/live&root_referer=https://www.tiktok.com/@ranish4201/live&device_id=14540993081340996985&room_id=7641264543013128968&room_ids=7641264543013128968 "HTTP/1.1 200 OK"
+17:24:01 │ INFO │ HTTP Request: GET https://tiktok.eulerstream.com/webcast/fetch/?client=ttlive-python&room_id=7641264543013128968&user_agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A130.0%29%20Gecko%2F20100101%20Firefox%2F130.0&platform=web&client_enter=true "HTTP/1.1 200 OK"
+17:24:02 │ INFO │ [COMMENT] #1 Aasu💗✨️: ehh ehh
+17:24:02 │ INFO │ [COMMENT] #2 Lx PASA: yauta ni max xaina 70k re k k vannu yrr
+17:24:02 │ INFO │ [COMMENT] #3 ᵀᴳＤＥＭＯＮꔪ😈: Kati bela ex hannu vayo 80 ko
+17:24:02 │ INFO │ [COMMENT] #4 Lx PASA: xaina old ni tai bg xa aaru kei xaina🤣🤣
+17:24:02 │ INFO │ [COMMENT] #5 BINAY!ㅤㅤFF: sathi aauna lako id Malai vana hai
+17:24:02 │ INFO │ [COMMENT] #6 kajimcgx7: Kati ho price
+17:24:08 │ INFO │ [COMMENT] #7 DAKU FF: kati mA
+17:24:14 │ INFO │ [COMMENT] #8 ᵀᴳＤＥＭＯＮꔪ😈: Hait gf lai uthai dinthey nii
+17:24:25 │ INFO │ [COMMENT] #9 BINAY!ㅤㅤFF: sathi
+17:24:53 │ INFO │ [COMMENT] #10 ᵀᴳＤＥＭＯＮꔪ😈: Kati ko bet hoo
+17:25:17 │ INFO │ [COMMENT] #11 BINAY!ㅤㅤFF: aauna lako id Malai vana lo
+17:25:23 │ INFO │ [COMMENT] #12 ᵀᴳＤＥＭＯＮꔪ😈: Bet kati ko hoo
+17:25:41 │ INFO │ [COMMENT] #13 SuBaSH ꔪ: voli heart emote return aauxa hai
+17:25:41 │ INFO │ [COMMENT] #14 ...: piece
+17:25:55 │ INFO │ [COMMENT] #15 ᵀᴳＤＥＭＯＮꔪ😈: Ohh 2.75 ley return aaudai xa
+17:25:58 │ INFO │ [COMMENT] #16 ᵀᴳＤＥＭＯＮꔪ😈: Nice
+17:26:06 │ INFO │ [COMMENT] #17 BINAY!ㅤㅤFF: malai dekhau na milxa aauna lako id
+17:26:12 │ INFO │ [COMMENT] #18 ɴɢᴛ_Vᴏᴛᴇʏ : sathi Kati hora aasko
+17:26:12 │ INFO │ [COMMENT] #19 ᵀᴳＤＥＭＯＮꔪ😈: Hjur vannus
+17:26:14 │ INFO │ [COMMENT] #20 BLAKEN ꫟: Kati ho dai
+17:26:43 │ INFO │ [COMMENT] #21 kajimcgx7: Yo id ko Kati ho
+17:26:47 │ INFO │ [COMMENT] #22 ᵀᴳJ E R R Y: like lvl ta dami xa dai
+17:27:13 │ INFO │ [COMMENT] #23 BINAY!ㅤㅤFF: aauna lako id sell garne ho ki khelne
+17:27:13 │ INFO │ [COMMENT] #24 ᵀᴳJ E R R Y: hora old emot herum ta 😁😁
+17:27:14 │ INFO │ [COMMENT] #25 kajimcgx7: Price kti ho
+17:27:56 │ INFO │ [COMMENT] #26 BINAY!ㅤㅤFF: ma gaye yekxin ma aauxu lo
+17:28:01 │ INFO │ [COMMENT] #27 ᵀᴳJ E R R Y: ramro raixa dai
+17:28:18 │ INFO │ [COMMENT] #28 ᵀᴳＤＥＭＯＮꔪ😈: Uid herum na kun id
+17:28:29 │ INFO │ [COMMENT] #29 ɴɢᴛ_Vᴏᴛᴇʏ : sathi mero chahi sell nahune hor sathi
+17:28:34 │ INFO │ [COMMENT] #30 kajimcgx7: Ma   Garxu yo saga cheng
+17:28:38 │ INFO │ [COMMENT] #31 ᵀᴳＤＥＭＯＮꔪ😈: Uid matrai herum
+17:29:14 │ INFO │ [COMMENT] #32 S U J A L ☠️❣️: kati ho
+17:30:04 │ INFO │ [COMMENT] #33 Lx PASA: max xa ki nai dai
+17:30:10 │ INFO │ [COMMENT] #34 vutay grg: season 1  2  xa ke nai
+17:30:10 │ INFO │ [COMMENT] #35 ᵀᴳＤＥＭＯＮꔪ😈: 36 ma 55 maja ley hanxa
+17:30:17 │ INFO │ [COMMENT] #36 S U J A L ☠️❣️: 70k price
+17:30:20 │ INFO │ [COMMENT] #37 Jhakri ff: elite
+17:30:35 │ INFO │ [COMMENT] #38 Jhakri ff: elit pass
+17:30:57 │ INFO │ [COMMENT] #39 Lx PASA: max xaina ra dai
+17:31:09 │ INFO │ [COMMENT] #40 vutay grg: season 1 2 xa ke nai
+17:31:48 │ INFO │ [COMMENT] #41 Lx PASA: aani yo baru xa 70k halni jasto
+17:31:58 │ INFO │ [COMMENT] #42 @limbu🤫star: price bro
+17:32:00 │ INFO │ [COMMENT] #43 ᵀᴳＤＥＭＯＮꔪ😈: Season 1 2 xaina
+17:32:02 │ INFO │ [COMMENT] #44 MANJURꔪBHAI: elite pass dekh haw
+17:32:09 │ INFO │ [COMMENT] #45 🥷🥷Ronak singhhhhhhhhhh🎸🎸: gun skin
+17:32:19 │ INFO │ [COMMENT] #46 ᵀᴳＤＥＭＯＮꔪ😈: Lala aaune vayo aaja 30
+17:32:46 │ INFO │ [COMMENT] #47 ᵀᴳＤＥＭＯＮꔪ😈: Admin ko xa
+17:32:55 │ INFO │ [COMMENT] #48 ᵀᴳＤＥＭＯＮꔪ😈: 1x ma hjur ko
+17:32:55 │ INFO │ [COMMENT] #49 🥷🥷Ronak singhhhhhhhhhh🎸🎸: dhakhau na ho
+17:33:02 │ INFO │ [COMMENT] #50 ᵀᴳＤＥＭＯＮꔪ😈: 1x ko admin
+17:33:29 │ INFO │ [COMMENT] #51 Suuuuu: white wall vako id xai na
+17:37:24 │ INFO │ [COMMENT] #52 ɴɢᴛ_Vᴏᴛᴇʏ : sathi mero chahi hanu paryou sathi
+17:37:33 │ INFO │ [COMMENT] #53 Bidhan R Magar: hello
+17:37:37 │ INFO │ [COMMENT] #54 ɴɢᴛ_Vᴏᴛᴇʏ : lastaii tanb ma xu hau sathi
+17:38:02 │ INFO │ [COMMENT] #55 Bidhan R Magar: Evo emote vako kati ko xa I'd ? euta vayeni hunxa
+17:38:13 │ INFO │ [COMMENT] #56 BINAY!ㅤㅤFF: oe voice 2 aako xata
+17:38:56 │ INFO │ [COMMENT] #57 BINAY!ㅤㅤFF: oe sathi aako xa
+17:39:05 │ INFO │ [COMMENT] #58 BINAY!ㅤㅤFF: aako xa
+17:39:40 │ INFO │ [COMMENT] #59 BINAY!ㅤㅤFF: kina yesto vako
+17:39:40 │ INFO │ [WS] Unregistered for session 054d458f-865a-4853-8a01-fe17dc917cd8 (total clients: 0)

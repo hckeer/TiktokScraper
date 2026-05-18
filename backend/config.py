@@ -4,7 +4,6 @@ from typing import Optional
 class Settings(BaseSettings):
     supabase_url: str
     supabase_service_role_key: str
-    redis_url: str = "redis://redis:6379/0"
     max_global_sessions: int = 10
     max_sessions_per_ip: int = 1
     rate_limit_per_hour: int = 5

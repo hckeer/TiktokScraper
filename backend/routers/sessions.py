@@ -1,11 +1,15 @@
 from fastapi import APIRouter, Request, HTTPException
 from pydantic import BaseModel
+from datetime import datetime, timedelta, timezone
 import uuid
 from config import settings
-from services.redis_client import limiter
 from services.supabase_client import supabase
 from services.extraction_manager import manager
 import re
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+
+limiter = Limiter(key_func=get_remote_address)
 
 router = APIRouter(prefix="/api/sessions", tags=["sessions"])
 
@@ -26,9 +30,37 @@ async def start_session(request: Request, body: SessionStartRequest):
     
     session_id = str(uuid.uuid4())
     
-    active_sessions = supabase.table("sessions").select("id", count="exact").eq("status", "connecting").execute()
+    window_start = datetime.now(timezone.utc) - timedelta(hours=settings.max_session_duration_hours)
+    try:
+        supabase.table("sessions").update({
+            "status": "ended",
+            "ended_at": datetime.now(timezone.utc).isoformat()
+        }).eq("status", "live").lt("created_at", window_start.isoformat()).execute()
+    except Exception:
+        pass
+
+    active_sessions = (
+        supabase.table("sessions")
+        .select("id", count="exact")
+        .eq("status", "live")
+        .gte("created_at", window_start.isoformat())
+        .execute()
+    )
     if active_sessions.count and active_sessions.count >= settings.max_global_sessions:
         raise HTTPException(status_code=429, detail="Maximum global sessions reached")
+
+    if settings.max_sessions_per_ip > 0:
+        client_ip = request.client.host if request.client else "unknown"
+        recent_by_ip = (
+            supabase.table("sessions")
+            .select("id", count="exact")
+            .eq("client_ip", client_ip)
+            .eq("status", "live")
+            .gte("created_at", window_start.isoformat())
+            .execute()
+        )
+        if recent_by_ip.count and recent_by_ip.count >= settings.max_sessions_per_ip:
+            raise HTTPException(status_code=429, detail="Maximum sessions per IP reached")
     
     try:
         supabase.table("sessions").insert({
