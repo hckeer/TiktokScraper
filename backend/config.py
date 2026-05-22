@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     max_sessions_per_ip: int = 1
     rate_limit_per_hour: int = 5
     max_session_duration_hours: int = 4
+    default_tiktok_usernames: str = "@dnmhr.consultants"
     
     class Config:
         env_file = ".env"
